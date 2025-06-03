@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FirstWPF"
         mc:Ignorable="d"
+        WindowStyle="None"
+        AllowsTransparency="True"   
         Title="360 Security" Height="600" Width="800" Background="White" FontFamily="Arial Black" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid MouseDown="Grid_MouseDown" PreviewMouseLeftButtonDown="DoubleClickScreen">
         <Grid.RowDefinitions>
             <RowDefinition Height="18.262"/>
             <RowDefinition Height="131.738"/>
@@ -40,7 +42,29 @@
                     <RowDefinition Height="35px" />
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <Border Background="#fff" Grid.Row="0"/>
+
+                <Border Background="#fff" Grid.Row="0">
+                    <DockPanel VerticalAlignment="Center" HorizontalAlignment="Right">
+                        <!--Facebook Login text-->
+                        <Label FontWeight="Light" FontFamily="Arial" FontSize="8px" Background="{x:Null}" Foreground="#FF9C9C9C">Facebook Login</Label>
+                        <!--Person button-->
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/1077/1077012.png " Height="16px" Width="12px" Margin="0,0,10,2"/>
+                        <!--Hamburger Menu-->
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/6015/6015685.png" Height="16px" Width="12px" Margin="0,0,10,0"/>
+                        <!-- Alta alma button-->
+                        <Button Background="Transparent" BorderThickness="0" Click="Minimize_Btn">
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/860/860821.png" Width="10px" Height="16px" Margin="20,0,2,0"/>
+                        </Button>
+                        <!-- Boyutme buttonu-->
+                        <Button Background="Transparent" BorderThickness="0" Click="Maximized_Btn">
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/7512/7512333.png" Height="14px" Width="14px" Margin="5,0,5,0" />
+                        </Button>
+                        <!--Cixma buttonu-->
+                        <Button Background="Transparent" BorderThickness="0" Click="Exit_Btn">
+                        <Image Source="https://cdn-icons-png.flaticon.com/512/5368/5368396.png" Height="16px" Width="12px" Margin="0,0,5,0"/>
+                        </Button>
+                    </DockPanel>
+                </Border>
 
             </Grid>
         </Border>

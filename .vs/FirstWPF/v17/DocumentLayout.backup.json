@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Projects\\FirstWPF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{302C3DDF-403E-4E86-81D9-85549DCF6BF8}|FirstWPF\\FirstWPF.csproj|d:\\projects\\firstwpf\\firstwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302C3DDF-403E-4E86-81D9-85549DCF6BF8}|FirstWPF\\FirstWPF.csproj|solutionrelative:firstwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{302C3DDF-403E-4E86-81D9-85549DCF6BF8}|FirstWPF\\FirstWPF.csproj|d:\\projects\\firstwpf\\firstwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{302C3DDF-403E-4E86-81D9-85549DCF6BF8}|FirstWPF\\FirstWPF.csproj|solutionrelative:firstwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{302C3DDF-403E-4E86-81D9-85549DCF6BF8}|FirstWPF\\FirstWPF.csproj|d:\\projects\\firstwpf\\firstwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302C3DDF-403E-4E86-81D9-85549DCF6BF8}|FirstWPF\\FirstWPF.csproj|solutionrelative:firstwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{302C3DDF-403E-4E86-81D9-85549DCF6BF8}|FirstWPF\\FirstWPF.csproj|d:\\projects\\firstwpf\\firstwpf\\firstwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{302C3DDF-403E-4E86-81D9-85549DCF6BF8}|FirstWPF\\FirstWPF.csproj|solutionrelative:firstwpf\\firstwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{302C3DDF-403E-4E86-81D9-85549DCF6BF8}|FirstWPF\\FirstWPF.csproj|d:\\projects\\firstwpf\\firstwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +34,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Projects\\FirstWPF\\FirstWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FirstWPF\\MainWindow.xaml",
+              "ToolTip": "D:\\Projects\\FirstWPF\\FirstWPF\\MainWindow.xaml",
+              "RelativeToolTip": "FirstWPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T10:28:33.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FirstWPF",
+              "DocumentMoniker": "D:\\Projects\\FirstWPF\\FirstWPF\\FirstWPF.csproj",
+              "RelativeDocumentMoniker": "FirstWPF\\FirstWPF.csproj",
+              "ToolTip": "D:\\Projects\\FirstWPF\\FirstWPF\\FirstWPF.csproj",
+              "RelativeToolTip": "FirstWPF\\FirstWPF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-03T09:29:24.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\FirstWPF\\FirstWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FirstWPF\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Projects\\FirstWPF\\FirstWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "FirstWPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowC8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:28:31.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Projects\\FirstWPF\\FirstWPF\\App.xaml",
               "RelativeDocumentMoniker": "FirstWPF\\App.xaml",
@@ -38,31 +80,6 @@
               "RelativeToolTip": "FirstWPF\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-02T10:43:54.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Projects\\FirstWPF\\FirstWPF\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "FirstWPF\\MainWindow.xaml",
-              "ToolTip": "D:\\Projects\\FirstWPF\\FirstWPF\\MainWindow.xaml*",
-              "RelativeToolTip": "FirstWPF\\MainWindow.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-02T10:28:33.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\FirstWPF\\FirstWPF\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "FirstWPF\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Projects\\FirstWPF\\FirstWPF\\MainWindow.xaml.cs",
-              "RelativeToolTip": "FirstWPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T10:28:31.355Z",
               "EditorCaption": ""
             }
           ]
